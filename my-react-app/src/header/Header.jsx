@@ -1,6 +1,6 @@
 import "./style.css";
-import logo from "../../assets/Britlex.svg";
-import menuBtn from "../../assets/menubtn.svg";
+import logo from "../assets/icons/Britlex.svg";
+import menuBtn from "../assets/icons/menubtn.svg";
 
 const Header = () => {
   return (

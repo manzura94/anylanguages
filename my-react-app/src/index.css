@@ -46,3 +46,58 @@ body {
     margin: 0 5px;
   }
 }
+
+.page-title,
+.block-title {
+  color: #000;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 1022px) {
+  .page-title{
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  .page-title{
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .page-title{
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.block-title {
+  color: #263238;
+  font-size: 30px;
+}
+
+.block-column {
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.black-button {
+  border-radius: 5px;
+  background: #263238;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px 52px;
+  border: none;
+}
