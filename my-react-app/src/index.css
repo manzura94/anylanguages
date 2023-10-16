@@ -82,6 +82,24 @@ body {
   font-size: 30px;
 }
 
+@media screen and (max-width: 992px) {
+  .block-title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .block-title {
+    font-size: 18px;
+  }
+}
+
 .block-column {
   color: #8f95a5;
   font-size: 20px;
@@ -89,6 +107,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+
 
 .black-button {
   border-radius: 5px;
@@ -100,4 +120,25 @@ body {
   line-height: normal;
   padding: 15px 52px;
   border: none;
+}
+
+@media screen and (max-width: 992px) {
+  .black-button  {
+    font-size: 18px;
+    padding: 15px 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .black-button {
+    font-size: 16px;
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .block-title {
+    font-size: 18px;
+  }
 }

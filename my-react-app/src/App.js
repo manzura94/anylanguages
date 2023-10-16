@@ -1,5 +1,6 @@
 import Header from"./header/Header"
 import HomePage from "./sections/homepage/HomePage";
+import { Skills } from "./sections/skills/Skills";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
      <Header/>
      <main>
       <HomePage/>
+      <Skills/>
      </main>
     </div>
   );
