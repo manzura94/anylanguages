@@ -11,7 +11,7 @@ export const Skills = () => {
       <h2 className="skills__title block-title">Skills</h2>
       <div className="skils__grid grid">
         <article className="grid__item1 article">
-          <div className="article__banner">
+          <div className="article__banner--one">
             <img
               src={sharedGoals}
               alt="two bro"

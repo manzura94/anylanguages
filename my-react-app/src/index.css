@@ -108,6 +108,24 @@ body {
   line-height: normal;
 }
 
+@media screen and (max-width: 992px) {
+  .block-column {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .block-title {
+    font-size: 13px;
+  }
+}
+
 
 
 .black-button {
@@ -133,7 +151,7 @@ body {
   .black-button {
     font-size: 16px;
     width: 100%;
-    align-self: center;
+    align-self: flex-end;
   }
 }
 
