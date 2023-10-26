@@ -68,9 +68,9 @@
 
 .pricing__price {
   margin-right: 8px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .pricing__monthly {
@@ -81,10 +81,8 @@ line-height: normal;
   line-height: normal;
 }
 
-@media screen and (max-width: 767px){
-   
-
-    .pricing__monthly{
-        font-size: 16px;
-    }
+@media screen and (max-width: 767px) {
+  .pricing__monthly {
+    font-size: 16px;
+  }
 }
